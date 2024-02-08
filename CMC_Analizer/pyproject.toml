@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "cmc_analizer"
+version = "0.1.0"
+description = "CoinMarketCap Analizer"
+authors = ["Xavier Pena <xavierpna@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "2.26.*"
+pandas = "^1.3.3"
+matplotlib = "^3.4.3"
+seaborn = "^0.11.2"
+numpy = "^1.21.2"
+python-dotenv = "^1.0.1"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
