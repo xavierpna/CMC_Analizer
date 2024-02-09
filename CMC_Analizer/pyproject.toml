@@ -2,7 +2,7 @@
 name = "cmc_analizer"
 version = "0.1.0"
 description = "CoinMarketCap Analizer"
-authors = ["Xavier Pena <xavierpna@gmail.com>"]
+authors = ["Xavier Pena"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
